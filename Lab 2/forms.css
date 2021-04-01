@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto; 
+}
+
+.form{
+    background: #000;
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    background: #f2f2f2;
+    padding: 15px;
+    margin: 0 0 15px;
+    border: 0;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    text-transform: uppercase;
+    outline: 0;
+    background: lightpink;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+    background: gray;
+    border: none;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: lightpink;
+    text-decoration: none;
+}
+
+.form .mes a{
+    font-size: 16px;
+    color: lightpink;
+    text-decoration: none;
+}
+
+.register-form{
+    display: none;
+}
+
+p{
+    color: lightpink;
+    font-size: 30px;
+    text-align: center;
+}
